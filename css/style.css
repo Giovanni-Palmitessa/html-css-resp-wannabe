@@ -136,12 +136,53 @@ img {
     }
 }
 
-@media screen and (max-width: 480px) {
-   .row{
+@media screen and (max-width: 480px) {  
+    .lessons .col{
+        width: 80%;
+    }
+
+
+    .steps{
+        margin: 0;
+    }
+
+    .row{
     display: flex;
     flex-direction: column;
     align-items: center;
    }
 
+   .why-us{
+    background-color: #222222;
+    padding-top: 3rem;
+    margin-bottom: 0;
+   }
 
+   .why-us .container .text-center{
+    max-width: 250px;
+    margin-inline: auto;
+   }
+
+   .steps .col{
+    width: 80%;
+   }
+
+   .text{
+    padding-bottom: 2rem;
+    font-size: 1rem;
+   }
+
+   .col-left{
+    display: flex;
+    justify-content: center;
+   }
+   .col-left img{
+    padding-bottom: 3rem;
+    max-width: 250px;
+    margin-inline: auto;
+   }
+
+   .why-us .col-right{
+    width: 90%;
+   }
 }
